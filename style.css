@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 20px;
+    background-color: rgb(209, 207, 207);
+}
+
+.container{
+    margin: 0 auto;
+    display: flexbox;
+    width: 400px;
+    background-color: #dfdfdf ;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: medium;
+    margin-top: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="tel"]{
+    background:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    height: 30px;
+    font-size: 100%;
+}
+.tableContainer{
+    margin: 0 auto;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+th, td {
+    padding: 5px;
+}
